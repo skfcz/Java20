@@ -1,4 +1,3 @@
-module de.groygroy.java20 {
-     requires  jdk.incubator.concurrent;
-
+module Java20 {
+    requires  jdk.incubator.concurrent;
 }
