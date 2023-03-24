@@ -24,13 +24,6 @@ public class ServerKlasse {
         System.out.println("-- Zugriff ohne Scope --");
         new Thread(new Aufgabe()).start();
 
-        var l0 = new Locale("de", "DE");
-        var l1 = Locale.of("de", "DE");
-        var l2 = new Locale.Builder().setLanguage("de").setRegion("DE").build();
-
-        
-        System.out.println("l0 " + l0 + ", l1 " + l1 + ", l2 " + l2);
-
     }
 
     static class Aufgabe implements Runnable {

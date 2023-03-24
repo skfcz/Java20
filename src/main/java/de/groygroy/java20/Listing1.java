@@ -1,6 +1,5 @@
 package de.groygroy.java20;
 
-
 import java.util.Set;
 
 public class Listing1 {
